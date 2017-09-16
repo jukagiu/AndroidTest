@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jk.pruebamaps.WifiBluetooth">
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="231dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Switch
+            android:id="@+id/blu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.38"
+            android:text="Bluetooth"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+        <Switch
+            android:id="@+id/wif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.38"
+            android:text="Wifi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+        <Button
+            android:id="@+id/sig1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.38"
+            android:text="Siguiente" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
